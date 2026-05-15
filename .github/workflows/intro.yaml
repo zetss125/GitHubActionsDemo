@@ -40,4 +40,4 @@ deploy:
     steps:
       - name: get the directory
         run: pwd
-        - run: echo hello world         
+      - run: echo hello world         
