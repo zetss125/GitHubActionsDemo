@@ -39,4 +39,5 @@ deploy:
     needs: build
     steps:
       - name: get the directory
-        run: pwd         
+        run: pwd
+        - run: echo hello world         
